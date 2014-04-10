@@ -1,7 +1,10 @@
 (ns lang-service.core
-  (:gen-class))
+  (:gen-class)
+  (:require [clojure.tools.cli :refer [parse-opts]]
+            [lang-service.detect :as detect]))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "sets up the service and accept messages"
   [& args]
-  (println "Hello, World!"))
+  nil)
+
