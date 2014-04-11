@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/tools.cli "0.3.1"]
                  [com.cybozu.labs/langdetect "1.1-20120112"]
-                 [com.novemberain/langohr "2.8.2"]]
+                 [com.novemberain/langohr "2.8.2"]
+                 [org.clojure/data.json "0.2.4"]]
   :main ^:skip-aot lang-service.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
